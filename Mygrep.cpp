@@ -18,7 +18,7 @@ int main(int argc, char* argv[]) {
     if (argc == 1) {
 
         string statement, characters;
-        int position;
+        size_t position;
 
         cout << "Give a string from which to search for: ";
         getline(cin, statement);
